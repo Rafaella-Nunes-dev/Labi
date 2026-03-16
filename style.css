@@ -143,3 +143,9 @@ p{
     margin-left:20px;
     margin-top:5px;
 }
+
+.animar{
+    opacity:0;
+    transform:translateY(40px);
+    transition:all 0.8s ease;
+}

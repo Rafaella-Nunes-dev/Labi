@@ -7,10 +7,9 @@ $(document).ready(function(){
         $("h1").css("color", "green");
         $("body").css("background-color", "darkolivegreen")
     });
-});
 
-$(document).ready(function(){
-    $("#equipe").click(function(){
+
+     $("#equipe").click(function(){
         $(this).css("color", "blue");
         $("#sobre-info").hide();
         $("#equipe-info").show();
